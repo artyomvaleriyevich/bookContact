@@ -10,7 +10,7 @@ type IItem = {
 
 const Home = () => {
     useEffect(()=>{
-        axios('http://localhost:3000/users')
+        axios('/users')
             .then(({data}) => localStorage.setItem('users',JSON.stringify(data)))
     },[])
 
