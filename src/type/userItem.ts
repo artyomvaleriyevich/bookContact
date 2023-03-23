@@ -11,5 +11,6 @@ export interface IUser  {
     id?:number,
     username?:string,
     phone?:string,
-    website?:string
+    website?:string,
+
 }

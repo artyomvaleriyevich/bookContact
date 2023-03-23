@@ -1,5 +1,5 @@
 .contact{
-  padding: 50px;
+  padding: 50px 0;
   &__title{
     font-size: 24px;
     color: black;
@@ -15,5 +15,35 @@
     row-gap: 15px;
     font-size: 20px;
     color: white;
+  }
+  &__form-btn{
+    display: block;
+    width: 165px;
+    border-radius: 15px;
+    background: white;
+    border:none;
+    padding: 8px 13px;
+    cursor: pointer;
+    &:hover{
+      background: #43ff00;
+    }
+  }
+  &__btn{
+    padding: 8px 13px;
+    background: white;
+    border-radius: 15px;
+    border:none;
+    margin-top: 20px;
+    cursor: pointer;
+    &:hover{
+      background: #43ff00;
+    }
+  }
+  &__input{
+    font-size: 23px;
+    background: transparent;
+    color: white;
+    border:none;
+    margin-top: 20px;
   }
 }

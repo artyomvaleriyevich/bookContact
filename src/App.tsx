@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Contact from "./pages/Contact/Contact";
 
 
+
 function App() {
 
   return (
@@ -12,7 +13,7 @@ function App() {
           <Routes>
               <Route path={'/'}  element={<Home/>}/>
               <Route path={'/:id'}  element={<Contact/>}/>
-        </Routes>
+          </Routes>
     </div>
   )
 }
